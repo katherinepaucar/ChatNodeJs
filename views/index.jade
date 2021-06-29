@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	.contenedor
+		h2 Exámen NodeJs Katherine Paucar
+		h1 Chat Socket.io
+		p#num usuarios conectados:0 
+	ul#messages
+
+	form(action="")
+		label#nicklabel(for="nick") Nick: 
+		input#nick(type="text",autocomplete="off") 
+		label#mlabel(for="m") Mensaje: 
+		input#m(type="text", autocomplete="off") 
+		button Send
